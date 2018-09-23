@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Personal Homepage 个人主页</title>
+  <link rel="stylesheet" href="css/loader.css">
+  <script type='text/javascript' src='js/jquery.min.js'></script>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/buttons.css">
+  <link rel="stylesheet" media="(max-width:766px)" href="css/main-mobile.css">
+</head>
+<body>
+<!--页面加载start-->
+  <link rel="stylesheet" type="text/css" href="css/loader.css">
+    <script type="text/javascript">
+    // 等待所有加载
+      $(window).load(function(){
+        $('body').addClass('loaded');
+        $('#loader-wrapper .load_title').remove();
+      });
+    </script>
+  <div id="loader-wrapper">
+      <div id="loader"></div>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+      <div class="load_title">正在加载个人主页站点<br><span>V1.0（Test）</span></div>
+  </div>
+<!--页面加载end-->
+    <div class="top-nav">
+      <div class="container clear-float">
+        <div class="fl">
+          <a class="item" href="index.html">首页</a>
+        </div>
+        <div class="fr">
+          <a href="#second-bar-background"><img class="item-logo" src="img/item01.png" alt="网络错误，图片无法显示！"></a>
+          <a class="item" href="#second-bar-background" title="点击跳转到个人简介">关于我</a>
+          <a href="#third-bar-background"><img class="item-logo" src="img/item02.png" alt="网络错误，图片无法显示！"></a>
+          <a class="item" href="#third-bar-background" title="点击跳转到项目经验">项目经验</a>
+          <a href="login.html"><img class="item-logo" src="img/item03.png" alt="网络错误，图片无法显示！"></a>
+          <a class="item" href="login.html" title="点击跳转到登录页面">登录</a>
+          <a href="register.html"><img class="item-logo" src="img/item04.png" alt="网络错误，图片无法显示！"></a>
+          <a class="item" href="register.html" title="点击跳转到注册页面">注册</a>
+          <label id="menu-toggle" for="menu-checkbox"><img class="item-logo button-hover" src="img/item05.png" alt="网络错误，图片无法显示！"></label>
+          <label id="menu-toggle" class="item-button" for="menu-checkbox">关于本站</label>
+          <input id="menu-checkbox" type="checkbox">
+          <div class="bar-nav">
+            <h1 style="text-align: center;">关于本站</h1>
+            <h3 style="text-align: center;">此网站用于个人简历用途，不作为商业用途。</h3>
+            <hr/>
+            <h5 style="text-align: center;">所使用开发编辑器为Atom。</h5>
+            <h5 style="text-align: right;">编写者：XXX</h5>
+            <h6 style="text-align: right;">创建时间-2018年9月20号</h6>
+            <h6 style="text-align: right;">最后更新时间-2018年9月22号</h6>
+            <h6 style="text-align: right;">版本：1.1 （Test）</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="side-bar-background">
+      <div class="side-bar">
+        <div class="my-logo">
+            <img class="my-logo-images" src="img/my-logo.png" alt="网络错误，图片无法显示！">
+        </div>
+        <div class="side-bar-title">
+            <h1>Hello!</h1>
+            <h2>我的名字叫<span>XXX</span></h2>
+            <h3>是一位自学能力强，工作主动认真，有责任心，具备良好的沟通能力和团队协作能力的人！</h3>
+            <div class="first-tbody">
+                <div class="first-tbody-text">
+                  <img src="img/item06.png" alt="网络错误，图片无法显示！">目前正在找工作
+                </div>
+                <div class="first-tbody-text">
+                  <img src="img/item07.png" alt="网络错误，图片无法显示！">1311*******
+                </div>
+                <div class="first-tbody-text">
+                  <img src="img/item08.png" alt="网络错误，图片无法显示！">sxxxxxxxxxx@gmail.com
+                </div>
+            </div>
+            <div class="first-tbody">
+                <div class="first-tbody-text">
+                  <img src="img/item06.png" alt="网络错误，图片无法显示！">男 21岁 ( 1997 / xx / xx )
+                </div>
+                <div class="first-tbody-text">
+                  <img src="img/item09.png" alt="网络错误，图片无法显示！">现居住深圳-XX区
+                </div>
+                <div class="first-tbody-text">
+                  <img src="img/item10.png" alt="网络错误，图片无法显示！">毕业院校：广州工商学院
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div id="second-bar-background" class="second-bar-background">
+      <div class="second-bar">
+        <div class="second-logo">
+          <img class="second-logo-images" src="img/second-logo.png" alt="网络错误，图片无法显示！">
+        </div>
+        <div class="seb-text1">ABOUT ME!</div>
+        <div class="sec-fl">
+          <h1>自我介绍</h1>
+          <div class="text-my">本人性格热情开朗，待人友好，为人诚实谦虚。工作勤奋，认真负责，能吃苦耐劳，尽职尽责，有耐心。具有亲和力，平易近人，善于与人沟通。Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod laudantium, quasi molestiae facere, quas omnis eligendi sed mollitia dolor, consectetur ab iste veritatis ullam earum nulla incidunt voluptatem autem dolore.</div>
+          <div class="text-logo">
+              <div class="i">
+                <img src="img/item11.png" alt="网络错误，图片无法显示！">
+                <div class="t">学习专业：软件技术</div>
+              </div>
+              <div class="i">
+                <img src="img/item12.png" alt="网络错误，图片无法显示！">
+                <div class="t">职能/职位：Web前端开发工程师</div>
+              </div>
+              <div class="i">
+                <img src="img/item13.png" alt="网络错误，图片无法显示！">
+                <div class="t">工作地点：深圳</div>
+              </div>
+              <div class="i">
+                <img src="img/item10.png" alt="网络错误，图片无法显示！">
+                <div class="t">毕业院校：广州工商学院</div>
+              </div>
+              <div class="i">
+                <img src="img/item15.png" alt="网络错误，图片无法显示！">
+                <div class="t">校内职务:XXXXX</div>
+              </div>
+          </div>
+        </div>
+        <div class="sec-fr">
+          <div class="text-logo">
+            <div class="i">
+              <img class="iix" src="img/item14.png" alt="网络错误，图片无法显示！">
+              <h3>掌握技能：</h3>
+              <h4>Coding Programs :</h4>
+              <div class="t1">HTML / HTML5</div>
+              <div class="t1">CSS / CSS3</div>
+              <div class="t1">JavaScript / Jquery</div>
+              <div class="t1">Java EE</div>
+              <h4>Design Programs :</h4>
+              <div class="t1">Android Studio</div>
+              <div class="t1">Dreamweaver / HBuilder / Atom</div>
+              <div class="t1">Eclipse</div>
+              <div class="t1">Photoshop / Flash</div>
+              <div class="t1">Word / Powerpoint / Excel</div>
+              <div class="t1">PaintTool SAI</div>
+              <div class="t1">Altova XMLSpy</div>
+              <div class="t1">ArcMap</div>
+              <div class="t1">SQL Server</div>
+              <div class="t1">VMware</div>
+            </div>
+            <div class="i">
+              <img class="iix" src="img/item16.png" alt="网络错误，图片无法显示！">
+              <h4>获得证书 :</h4>
+              <div class="t1">2016/12 XXXXXXXXXX</div>
+              <div class="t1">2017/12 XXXXXXXXXX</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="third-bar-background" class="third-bar-background">
+      <div class="third-bar">
+        <div class="third-bar-logo">
+          <img class="third-logo-images" src="img/third-logo.png" alt="网络错误，图片无法显示！">
+        </div>
+        <div class="third-full">
+          <h1>项目经验</h1>
+          <h3>2017/1-2017/9 &nbsp;&nbsp;&nbsp;<span class="t2">XXXXXXX</span></h3>
+          <h4>项目描述：</h4>
+          <div class="t1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+          <h4>责任描述：</h4>
+          <div class="t1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-background">
+      <div class="footer">
+        Copyright (c) 2018 XXX All Rights Reserved.
+      </div>
+    </div>
+    <a href="#" title="返回顶部" class="item-backup">
+      <img src="img/backup.png">
+    </a>
+</body>
+</html>

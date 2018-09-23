@@ -1,0 +1,15 @@
+.left {
+  margin-right: 5%;
+  width: 80%;
+  padding: 10%;
+}
+.left h1 {
+  font-size: 24px;
+  margin-top: 40px;
+}
+.button-input {
+  margin-top: 20px;
+}
+.remember-password-text {
+  margin-right: 18%;
+}
